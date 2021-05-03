@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style file */
+
+@import "bulma/css/bulma.css";
+
+html {
+  background: linear-gradient(90deg, black, #4b2503);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100%;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+img {
+  border: 2px solid black;
+}
